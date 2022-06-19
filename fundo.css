@@ -1,0 +1,17 @@
+body{
+    background: #6e0040;
+
+    
+}
+code{
+    border-radius: 8px; margin-top: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+table{
+    padding: 100px;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}

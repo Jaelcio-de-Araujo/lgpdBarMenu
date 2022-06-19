@@ -1,0 +1,45 @@
+body{
+    background: #6e0040;
+}
+table, td{
+    padding: 9px;
+}
+table{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; margin-top: 30px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+table{
+background-color: #ffffff;
+font-weight: 500;
+}
+table,tr{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fe4bb3;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+.bt{
+
+    width: 150px;
+    padding: 5px;
+    background-color: #6e0040;
+    color: #ffffff;
+    border: none;
+
+}
+.bt-press{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: #d8d8d8;
+    color: #6e0040;
+    border: none;
+}
