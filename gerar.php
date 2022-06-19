@@ -22,6 +22,7 @@ if(@$_POST['env'])
         $direcao  = filter_input(INPUT_POST,'direcao',FILTER_SANITIZE_SPECIAL_CHARS);
         $bot      = filter_input(INPUT_POST,'bot',FILTER_SANITIZE_SPECIAL_CHARS);
         $barracor = filter_input(INPUT_POST,'barracor',FILTER_SANITIZE_SPECIAL_CHARS);
+        $end      = filter_input(INPUT_POST,'end',FILTER_SANITIZE_URL);
     }else{
         $msg = "Não há código para ser copiado.";
     }
@@ -71,7 +72,7 @@ if(@$_POST['env'])
     &lt;div class="box-cookies hide"&gt;
     &lt;p class="msg-cookies"&gt;Usamos cookies para garantir que você obtenha a melhor 
     experiência, confira nossa 
-    &lt;a href="lgpd.php" style="color: #ffffff; text-decoration: underline;">
+    &lt;a href="<?php echo "{$end}"; ?>" style="color: #ffffff; text-decoration: underline;">
     política de privacidade&lt;/a&gt;&lt;/p&gt;
     &lt;button class="btn-cookies"&gt;Aceitar!&lt;/button&gt;
     &lt;/div>

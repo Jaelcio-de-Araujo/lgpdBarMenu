@@ -39,6 +39,10 @@
               </select></td>
             </tr>
             <tr>
+                <td>Endereço da pagina lgpd:</td> 
+                <td> <input type="text" class="bt-press end" name="end" min="60" max="300" autocomplete="off"></td>
+            </tr>
+            <tr>
                 <td><input type="submit" value="Gerar código" name="env" class="bt"><br> </td>
             </tr>
             </table> 
